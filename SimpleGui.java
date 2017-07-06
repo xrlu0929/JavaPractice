@@ -20,7 +20,7 @@ public class SimpleGui implements ActionListener {
         JButton button = new JButton("Change colors");
         button.addActionListener(this);
 
-        MyDrawPanel d = new MyDrawPanel();
+        MyDrawPanel d = new MyDrawPanel(); //MyDrawPanel is another class, uploaded.
 
         frame.getContentPane().add(BorderLayout.SOUTH, button);
         frame.getContentPane().add(BorderLayout.CENTER, d);
